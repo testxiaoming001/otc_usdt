@@ -1,37 +1,31 @@
 <template>
   <div class="css-pp0aif">
-    <header class="css-kunicj">
-      <a href="/zh-CN" class="css-qetmk8"
+    <header class="css-kunicj" v-if="!this.$route.meta.hide">
+      <a href="/" class="css-qetmk8"
         ><img
           src="https://res.pxpstatic.com/static/eaas-c2c/pexpay/static/images/common/logo.svg"
           class="css-1ioqxx8"
       /></a>
       <div class="css-j16am5">
-        <a href="/zh-CN/trade/buy" class="css-eelqus"
-          ><div data-bn-type="text" class="css-vurnku">购买</div></a
-        ><a href="/zh-CN/trade/sell" class="css-eelqus"
-          ><div data-bn-type="text" class="css-vurnku">出售</div></a
-        ><a href="/zh-CN/myads" class="css-eelqus"
-          ><div data-bn-type="text" class="css-vurnku">我的广告</div></a
-        >
+        <router-link :to="{ path: '/trade/buy' }" class="css-eelqus">
+          <div data-bn-type="text" class="css-vurnku">购买</div>
+        </router-link>
+        <router-link :to="{ path: '/trade/sell' }" class="css-eelqus">
+          <div data-bn-type="text" class="css-vurnku">出售</div>
+        </router-link>
+        <router-link :to="{ path: '/myads' }" class="css-eelqus">
+          <div data-bn-type="text" class="css-vurnku">我的广告</div>
+        </router-link>
       </div>
       <div class="css-11y6cix"><div class="css-1h690ep"></div></div>
       <div class="css-1aejx32">
-        <a
-          data-bn-type="button"
-          aria-label="login"
-          href="https://accounts.pexpay.com/zh-CN/login?return_to=aHR0cHM6Ly93d3cucGV4cGF5LmNvbS96aC1DTg%3D%3D"
-          class="css-79usfa"
-          >登录</a
-        >
+        <router-link :to="{ path: '/login' }" class="css-79usfa">
+          登录
+        </router-link>
         <div class="css-xcmw9u"></div>
-        <a
-          data-bn-type="button"
-          aria-label="register"
-          href="https://accounts.pexpay.com/zh-CN/register"
-          class="css-m5at9z"
-          >注册</a
-        >
+        <router-link :to="{ path: '/register' }" class="css-m5at9z">
+          注册
+        </router-link>
       </div>
       <div class="css-1rnkava">
         <div class="css-f3latq">
@@ -42,7 +36,7 @@
       </div>
     </header>
     <router-view></router-view>
-    <footer class="css-1grcmhm">
+    <footer class="css-1grcmhm" v-if="!this.$route.meta.hide">
       <div class="css-qbwj2o">
         <div href="/zh-CN/convert" class="css-i1zzj0">
           <img
@@ -145,9 +139,7 @@
   </div>
 </template>
 
-<style>
-
-</style>
+<style></style>
 <script>
 export default {
   methods: {

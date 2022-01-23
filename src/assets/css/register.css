@@ -1,0 +1,213 @@
+.css-st0woq {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 100%;
+}
+
+.css-st0woq [data-bn-type="input"] {
+  padding-left: 0;
+  margin-left: 8px;
+  caret-color: #1a1f34;
+}
+
+.css-st0woq label {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 767px) {
+  .css-st0woq {
+    width: 416px;
+  }
+}
+.css-1lx7oj {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  text-align: center;
+}
+.css-1tetwh9 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  line-height: 34px;
+  color: #1a1f34;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.css-1his7ns {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #707a8a;
+  margin-bottom: 32px;
+}
+.css-w56whi {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    margin-right: 8px;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    margin-right: 8px;
+    position: relative;
+    top: 0;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+}
+
+.css-w56whi > svg {
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: #B7BDC6;
+    border-radius: 2px;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: transparent;
+    fill: transparent;
+}
+
+.css-w56whi:hover input:not(:disabled) ~ svg {
+    border-color: #675EF4;
+}
+
+.css-w56whi input:checked ~ svg {
+    border: none;
+    background-color: #675EF4;
+    fill: #FFFFFF;
+}
+
+.css-w56whi input:disabled ~ svg {
+    cursor: not-allowed;
+    background-color: #EAECEF;
+    fill: #EAECEF;
+    border: none;
+}
+
+.css-w56whi input:checked:disabled ~ svg {
+    fill: #B7BDC6;
+}
+
+.css-w56whi:first-child {
+    margin-top: 2px;
+} .css-p19g2b {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}.css-7jc8t7 {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    color: currentColor;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    fill: #1A1F34;
+    fill: currentColor;
+} .css-1d7x9l3 {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-left: 4px;
+}
+
+.css-1d7x9l3 a {
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: #4D58BD;
+}
+
+.css-1d7x9l3 a:hover {
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+    color: rgba(103,94,244,0.9);
+}
+
+.css-st0woq label {
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+}
+
+.css-1cguk7x {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #3C4152;
+    font-size: 14px;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+}.css-1bujxan {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 12px;
+    line-height: 17px;
+    color: #707A8A;
+    margin-top: 24px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.css-xvxpe5 {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    width: 100%;
+    margin-bottom: 24px;
+    margin-bottom: 24px;
+}

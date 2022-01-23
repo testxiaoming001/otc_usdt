@@ -17,12 +17,9 @@
               <div data-bn-type="text" class="css-1fkzv7s">
                 在Pexpay您可以安全便捷，0 手续费买卖数字货币。
               </div>
-              <a
-                data-bn-type="button"
-                href="https://accounts.pexpay.com/zh-CN/register"
-                class="css-1sgkfld"
-                ><div data-bn-type="text" class="css-rjqmed">立即注册</div></a
-              >
+              <router-link :to="{ path: '/register' }" class="css-1sgkfld">
+                <div data-bn-type="text" class="css-rjqmed">立即注册</div>
+              </router-link>
             </div>
           </div>
           <div class="css-1hxpka9">
