@@ -5,6 +5,9 @@ import './assets/css/app.css'
 import './assets/css/login.css'
 import './assets/css/register.css'
 import './assets/css/tradesell.css'
+import './assets/css/reset-password.css'
+import './assets/css/binance-transfer.css'
+
 import { Popup,NavBar,Tab, Tabs  } from 'vant';
 const app = createApp(App);
 app.use(router)
